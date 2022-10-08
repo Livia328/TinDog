@@ -1,0 +1,167 @@
+body {
+  font-family: "Montserrat";
+}
+#title {
+  background-color: #ff4c68;
+  color: #fff;
+}
+
+h1,h2,h3,h4,h5,h6 {
+  font-family: "Montserrat";
+}
+
+h2 {
+  font-weight:800;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+h3{
+  font-weight:800;
+}
+
+p {
+  color: #8f8f8f;
+
+}
+
+.heading1 {
+  font-weight: 900;
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+.container-fluid {
+  padding: 3% 15% 7%;
+}
+
+/* navigation bar */
+.navbar {
+  padding: 0 0 4.5rem;
+}
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+}
+.nav-item {
+  padding:0 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-family: "Montserrat";
+  font-weight:400;
+}
+
+/* Download button */
+.download-button {
+  margin:5% 3% 5% 0%;
+}
+
+/* title img */
+.title-img {
+  width: 60%;
+  transform: rotate(24deg);
+  position: absolute;
+  right: 30%;
+}
+
+/* Features-section */
+#features {
+  padding: 7% 15%;
+  background-color: #fff;
+  position: relative;
+  z-index: 1;
+}
+
+.features-box {
+  text-align: center;
+  padding: 5%;
+
+}
+
+.icon {
+  color: #ef8172;
+  margin-bottom: 1rem;
+}
+
+.icon:hover {
+  color: #ff4c68;
+}
+
+  /* <!-- Testimonials --> */
+#testimonials {
+    text-align: center;
+    background-color: #ef8172;
+    color: #fff;
+}
+
+.carousel-item {
+    padding: 7% 15%;
+}
+
+.testimonial-image {
+  width: 15%;
+  /* 把这个图变成圆形的 */
+  border-radius: 100%;
+  margin: 20px;
+}
+
+#press {
+  padding: 7% 15%;
+  text-align: center;
+  background-color: #ef8172;
+  padding-bottom: 3%;
+}
+
+.press-logo {
+  width: 30%;
+  margin: 15px 20px 20px 15px;
+}
+
+/* pricing section */
+#pricing {
+  padding: 100px;
+  text-align: center;
+}
+
+.pricing-column {
+  padding-left: 3% 2%;
+}
+
+/* CTA section */
+#cta {
+  background-color: #ff4c68;
+  color: #fff;
+  padding: 7% 15%;
+  text-align: center;
+}
+
+.cta-heading{
+  font-family: "Montserrat";
+  font-weight: 900;
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+/* foot section */
+#footer {
+  padding: 7% 15%;
+  text-align: center;
+}
+.social-icon {
+  margin: 15px 20px 20px 15px;
+}
+
+/* media query breaking point, 当条件成立的时候，括号内的内容会override上面的设置 */
+@media (max-width:1028px) {
+  /* 当我们屏幕的大小比1028小的时候，以下的部分会override上面的 */
+  #title {
+    text-align: center;
+  }
+  .title-img {
+    position: static;
+    transform: rotate(0);
+
+  }
+}
